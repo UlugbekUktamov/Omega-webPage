@@ -584,8 +584,9 @@ header .second-dropdown {
   gap: 20px;
 }
 
-.fifth-content footer .footer-2 .right .icons i:first-child {
+.fifth-content footer .footer-2 .right .icons i:hover {
   color: var(--blue-color);
+  cursor: pointer;
 }
 
 .hr {
