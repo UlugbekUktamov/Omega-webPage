@@ -90,6 +90,11 @@ header .first-dropdown {
 
 header p:hover {
   color: var(--blue-color);
+  cursor: pointer;
+}
+
+header .line .first-dropdown p {
+  cursor: pointer;
 }
 
 header .line:hover .first-dropdown {
