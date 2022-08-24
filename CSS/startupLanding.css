@@ -1,0 +1,341 @@
+.startupLanding .first-content {
+    background-image: url("/startupLanding/BG\ \(2\).png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.startupLanding .first-content header .right {
+    background-color: #ffffffa8;
+    border-radius: 10px;
+    padding: 5px 30px;
+}
+
+.startupLanding .oval {
+    position: absolute;
+    top: 6rem;
+    right: 30rem;
+    width: 15rem;
+}
+
+.startupLanding .first-content header .right .btn {
+    margin-left: 100px;
+}
+
+.startupLanding .first-content .content {
+    margin: 80px 120px;
+}
+
+.startupLanding header .line:hover .first-dropdown {
+    top: 4rem;
+}
+
+.startupLanding .first-content .content h1 {
+    font-size: 2.5rem;
+}
+
+.startupLanding .first-content .content p {
+    line-height: 1.9rem;
+    color: #635e5e;
+    margin: 20px 0;
+}
+
+#email {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    width: 550px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px 0;
+}
+
+#email .btn {
+    margin-right: 20px;
+    width: 200px;
+}
+
+#email input {
+    height: 100%;
+    margin-left: -120px;
+    border: none;
+    outline: none;
+    font-size: 17px;
+}
+
+#email i {
+    margin-left: 20px;
+    color: #756d6d;
+}
+
+.white {
+    color: #000;
+}
+
+.startupLanding .second-content .content {
+    width: 300px;
+}
+
+.startupLanding .second-content {
+    margin-top: 0;
+    border-bottom-right-radius: 0;
+    background-color: #413365;
+}
+
+.startupLanding .second-content .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.startupLanding .second-content .right {
+    margin-left: 6rem;
+}
+
+.startupLanding .third-content {
+    position: relative;
+    justify-content: space-evenly;
+    margin: 0 auto 10px;
+    height: 100vh;
+    width: 100vw;
+}
+
+.startupLanding .third-content img {
+    position: absolute;
+}
+
+.startupLanding .third-content .left {
+    margin-left: 90px;
+}
+
+.startupLanding .third-content .right {
+    background-image: url('/startupLanding/BG\ \(4\).jpg');
+    background-repeat: no-repeat;
+    background-position: left center;
+    margin-right: -60px;
+    width: 700px;
+    height: 100%;
+}
+
+.startupLanding .fourth-content {
+    margin-top: -8px;
+    width: 100vw;
+    height: 100vh;
+    background-color: #f7f7fb;
+}
+
+.startupLanding .fourth-content h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    padding-top: 2.6rem;
+}
+
+.startupLanding .fourth-content .general-content {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    padding-top: 4rem;
+}
+
+.startupLanding .fourth-content .general-content .content:first-child,
+.startupLanding .fourth-content .general-content .content:nth-child(3) {
+    display: flex;
+    justify-content: space-between;
+}
+
+.startupLanding .fourth-content .general-content .content:nth-child(2) {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.startupLanding .fourth-content .general-content .content h3 {
+    background-color: #fff;
+    padding: 30px 50px;
+    border-radius: 15px;
+}
+
+.startupLanding .fifth-content .content-1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+}
+
+.startupLanding .fifth-content .content-1 .left h1 {
+    font-size: 2.5rem;
+}
+
+.startupLanding .fifth-content .content-1 .left p {
+    line-height: 1.9rem;
+    margin: 2rem 0;
+}
+
+.startupLanding .fifth-content .content-1 .right .image img:nth-child(2) {
+    position: absolute;
+    top: 27rem;
+    width: 15rem;
+    right: 33rem;
+    z-index: 10;
+}
+
+.startupLanding .fifth-content .content-2 {
+    width: 100vw;
+    height: 100vh;
+    background-color: #f7f7fb;
+}
+
+.startupLanding .fifth-content .content-2>.title {
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.startupLanding .fifth-content .content-2>.title h1 {
+    font-size: 2.5rem;
+}
+
+.startupLanding .fifth-content .content-2>.title p {
+    padding-top: 1rem;
+    line-height: 2rem;
+    color: #4b4949;
+}
+
+.startupLanding .fifth-content .content-2 .mini-content {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+}
+
+.startupLanding .fifth-content .content-2 .mini-content .content-mini {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.startupLanding .fifth-content .content-2 .mini-content .content-mini p {
+    line-height: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.startupLanding .fifth-content .content-2 .mini-content .content-mini .footer {
+    display: flex;
+    justify-content: left;
+    gap: 2rem;
+}
+
+.startupLanding .fifth-content .content-2 .mini-content .content-mini .footer p {
+    font-size: 0.8rem;
+    color: #4b4949;
+}
+
+.startupLanding .fifth-content .content-3 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+    gap: 10rem;
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #413365;
+}
+
+.startupLanding .fifth-content .content-3 .left .image img:nth-child(2) {
+    position: absolute;
+    width: 13rem;
+    left: 30rem;
+    top: 15rem;
+}
+
+.startupLanding .fifth-content .content-3 .right h1 {
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.startupLanding .fifth-content .content-3 .right p {
+    line-height: 2rem;
+    color: #ccc;
+    padding: 2rem 0;
+}
+
+.startupLanding .fifth-content .content-3 .right .email {
+    display: grid;
+    gap: 1rem;
+}
+
+.startupLanding .fifth-content .content-3 .right .email .input {
+    background-color: #fff;
+    padding: 1rem;
+}
+
+.startupLanding .fifth-content .content-3 .right .email .input i {
+    color: #666666;
+}
+
+.startupLanding .fifth-content .content-3 .right .email .input input {
+    border: none;
+    outline: none;
+    margin-left: 5rem;
+    background-color: transparent;
+    font-size: 1rem;
+}
+
+.startupLanding .fifth-content .content-3 .right .email button {
+    padding: 1rem;
+    font-size: 1rem;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.startupLanding .fifth-content .footer {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 3rem 0;
+}
+
+.startupLanding .fifth-content .footer ul p {
+    color: #575454;
+}
+
+.startupLanding .fifth-content .footer ul .icons {
+    display: flex;
+    gap: 1rem;
+}
+
+.startupLanding .fifth-content .footer ul .icons i {
+    background-color: #575454;
+    color: #fff;
+    padding: 0.5rem 0.7rem;
+    border-radius: 50%;
+}
+
+.startupLanding .fifth-content .footer ul .icons i:hover {
+    background-color: #fff;
+    color: #575454;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.startupLanding .fifth-content .footer ul li,
+.startupLanding .fifth-content .footer ul p {
+    line-height: 1.5rem;
+    margin: 1rem 0;
+}
+
+.startupLanding .fifth-content .footer ul li span {
+    color: #0000ff;
+}
+
+.startupLanding .fifth-content .footer ul li:hover {
+    color: #0000ff;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
