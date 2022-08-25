@@ -1,3 +1,4 @@
+/* STARTUPLANDING FIRST-CONTENT */
 .startupLanding .first-content {
     background-image: url("/startupLanding/BG\ \(2\).png");
     background-position: center center;
@@ -74,6 +75,7 @@
     color: #000;
 }
 
+/* STARTUPLANDING SECOND-CONTENT */
 .startupLanding .second-content .content {
     width: 300px;
 }
@@ -94,6 +96,7 @@
     margin-left: 6rem;
 }
 
+/* STARTUPLANDING THIRD-CONTENT */
 .startupLanding .third-content {
     position: relative;
     justify-content: space-evenly;
@@ -119,6 +122,7 @@
     height: 100%;
 }
 
+/* STARTUPLANDING FOURTH-CONTENT */
 .startupLanding .fourth-content {
     margin-top: -8px;
     width: 100vw;
@@ -159,6 +163,7 @@
     border-radius: 15px;
 }
 
+/* STARTUPLANDING FIFTH-CONTENT */
 .startupLanding .fifth-content .content-1 {
     position: relative;
     display: flex;
@@ -223,6 +228,7 @@
     padding-bottom: 1.5rem;
 }
 
+/* startuplanding footer */
 .startupLanding .fifth-content .content-2 .mini-content .content-mini .footer {
     display: flex;
     justify-content: left;

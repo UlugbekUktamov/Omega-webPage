@@ -1,3 +1,4 @@
+/* GENERAL CSS */
 @import url(https://fonts.googleapis.com/css2?family=Lato:wght@100;200;300;400;500;600;800;900&display=swap);
 
 body {
@@ -28,7 +29,8 @@ ul li {
     list-style-type: none;
 }
 
-/* FIRST CONTENT > HEADER */
+
+/* GENERAL FIRST CONTENT > HEADER */
 
 .first-content header {
     display: flex;
@@ -172,7 +174,7 @@ header .second-dropdown {
     color: #fff;
 }
 
-/* SECOND CONTENT */
+/* GENERAL SECOND CONTENT */
 .second-content {
     display: flex;
     justify-content: center;
@@ -240,7 +242,7 @@ header .second-dropdown {
     background-color: transparent;
 }
 
-/* THIRD CONTENT */
+/* GENERAL THIRD CONTENT */
 .third-content {
     display: flex;
     justify-content: center;

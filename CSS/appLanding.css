@@ -1,0 +1,418 @@
+* {
+    color: #fff;
+}
+
+body {
+    background-color: #19191b;
+}
+
+/* APPLADNGIN FIRST-CONENT HEADER */
+.appLanding .first-content header {
+    justify-content: space-around;
+}
+
+.appLanding .first-content header .center p:hover {
+    color: coral;
+}
+
+.appLanding .first-content header .center .first-dropdown .line1 .line2 p,
+.appLanding .first-content header .center .first-dropdown .line1 .line2 i {
+    color: #000;
+}
+
+.appLanding .first-content header .center .first-dropdown .line1 .line2:hover p,
+.appLanding .first-content header .center .first-dropdown .line1 .line2:hover i {
+    color: coral;
+}
+
+.appLanding .btn {
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.appLanding .first-content header .right .btn {
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.color-coral {
+    color: coral;
+}
+
+.appLanding .first-content header .center .line:hover .first-dropdown {
+    top: 4rem;
+}
+
+.appLanding .first-content header .center .line p:hover a {
+    color: #ff4400;
+}
+
+.appLanding .first-content .background {
+    position: absolute;
+    left: -10rem;
+    top: 34rem;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    background-color: #dfdf11;
+}
+
+
+/* APPLANDING FIRST-CONTENT CONTENT */
+.appLanding .first-content .content .background-1 {
+    position: absolute;
+    right: 9.5rem;
+    border-radius: 50%;
+    width: 27rem;
+    height: 24rem;
+    background-color: #6031d6;
+}
+
+.appLanding .first-content .content .background-2 {
+    position: absolute;
+    top: 13rem;
+    right: 9.5rem;
+    width: 26rem;
+    height: 26rem;
+    border: 5px solid #413365;
+    border-radius: 50%;
+}
+
+.appLanding .first-content .content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.appLanding .first-content .content .left h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.appLanding .first-content .content .left p {
+    line-height: 1.8rem;
+    color: #b4b4b4;
+}
+
+.appLanding .first-content .content .right .form {
+    position: relative;
+    display: flex;
+    gap: 2rem;
+    width: 20rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.appLanding .first-content .content .right .form p {
+    position: absolute;
+    background-color: #fff;
+    color: #5e5e5e;
+    padding: 0 7px;
+    left: 3rem;
+    top: 1.5rem;
+}
+
+.appLanding .first-content .content .right .form h4 {
+    border: 1px solid #e2e0e0;
+    text-align: left;
+    padding: 20px 24px;
+    border-radius: 5px;
+    color: #363636;
+}
+
+.appLanding .first-content .content .right .form input::placeholder {
+    color: #5e5e5e;
+}
+
+.appLanding .first-content .content .right .form input {
+    border: 1px solid #e2e0e0;
+    padding: 13px 24px;
+    outline: none;
+    color: #000;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.appLanding .first-content .content .right .form .btn {
+    color: #fff;
+    background-color: #000;
+    border: 1px solid #000;
+}
+
+.appLanding .first-content .content .right .form .btn:hover {
+    background-color: red;
+}
+
+.appLanding .first-content .content .right p,
+.appLanding .first-content .content .right h4 {
+    color: #000;
+}
+
+
+/* APPLANDING SECOND-CONTENT */
+.appLanding .second-content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    text-align: center;
+    margin-top: 8rem;
+    border-bottom-right-radius: 0;
+    height: auto;
+    overflow: visible;
+}
+
+.appLanding .second-content .top h1 {
+    margin-top: -14rem;
+}
+
+.appLanding .second-content .top p {
+    margin: 1rem 0 4rem;
+    color: #a09e9e;
+}
+
+.appLanding .second-content .top .image {
+    position: relative;
+    width: 50rem;
+}
+
+.appLanding .second-content .top .image i {
+    position: absolute;
+    top: 38%;
+    left: 45%;
+    background-color: #6031d6;
+    padding: 1.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.appLanding .second-content .top .image img {
+    width: 100%;
+}
+
+.appLanding .second-content .bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 6rem;
+}
+
+.appLanding .second-content .bottom h4 {
+    font-size: 1.2rem;
+}
+
+.appLanding .second-content .bottom p {
+    line-height: 1.5rem;
+    color: #b1afaf;
+    margin-top: 1rem;
+}
+
+
+/* APPLANDING THIRD-CONTENT */
+.appLanding .third-content {
+    position: relative;
+}
+
+.appLanding .third-content .background-3 {
+    position: absolute;
+    width: 11rem;
+    height: 11rem;
+    background-color: #0a012294;
+    top: 3rem;
+    left: 13rem;
+    border-radius: 50%;
+}
+
+.appLanding .third-content .left .image {
+    width: 30rem;
+}
+
+.appLanding .third-content .left .image img {
+    width: 100%;
+}
+
+.appLanding .third-content .right button {
+    color: #fff;
+    border: 1px solid #fff;
+    margin: -30rem 0 1rem;
+}
+
+.appLanding .third-content .right button:hover {
+    background-color: #2e2ef3f3;
+}
+
+.appLanding .third-content .right h1 {
+    font-size: 2rem;
+    margin: 0 0 2rem;
+}
+
+
+/* APPLANDING FOURTH-CONTENT */
+.appLanding .fourth-content {
+    background-color: #1e1e20;
+    min-height: 100vh;
+    text-align: center;
+    padding-top: 5rem;
+}
+
+.appLanding .fourth-content h1 {
+    font-size: 3rem;
+}
+
+.appLanding .fourth-content p {
+    line-height: 1.7rem;
+    margin: 2rem 0 4rem;
+    color: #cccccc;
+}
+
+.appLanding .fourth-content .images {
+    display: flex;
+    width: 50%;
+    margin: 0 4rem;
+}
+
+.appLanding .fourth-content .images img {
+    width: 100%;
+}
+
+
+/* APPLANDING FIFTH-CONTENT HEADER */
+.appLanding .fifth-content header {
+    height: 100vh;
+    display: flex;
+    border-bottom: 1px solid #818181;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.appLanding .fifth-content header .left h1 {
+    font-size: 2.3rem;
+}
+
+.appLanding .fifth-content header .left p {
+    line-height: 1.7rem;
+    color: #9c9a9a;
+    margin: 2rem 0 2rem;
+}
+
+.appLanding .fifth-content header .left .btn {
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.appLanding .fifth-content header .right .image {
+    width: 30rem;
+}
+
+.appLanding .fifth-content header .right .image img {
+    width: 100%;
+}
+
+
+/* APPLANDING FIFTH-CONTENT FOOTER */
+.appLanding .fifth-content footer>h1 {
+    padding-top: 5rem;
+}
+
+.appLanding .fifth-content footer>p {
+    padding-top: 1rem;
+    color: #9c9a9a;
+}
+
+.appLanding .fifth-content footer>h1,
+.appLanding .fifth-content footer>p {
+    text-align: center;
+}
+
+.appLanding .fifth-content footer .all-footer-content {
+    display: grid;
+    padding: 5rem 0;
+    grid-template-columns: 1fr 1fr;
+    width: 95%;
+    margin: 0 auto;
+    gap: 3rem;
+}
+
+.appLanding .fifth-content footer .all-footer-content .footer-content p {
+    line-height: 1.5rem;
+    color: #9c9a9a;
+    padding-top: 1.5rem;
+}
+
+.appLanding .fifth-content footer>p span {
+    color: #d42f2f;
+}
+
+
+/* APPLANDING BANNER */
+.appLanding .banner {
+    background-color: #1e1e20;
+    margin: 7rem 0 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.appLanding .banner .image img {
+    position: absolute;
+    width: 15rem;
+    top: -1rem;
+    right: 0;
+}
+
+.appLanding .banner .banner-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 50vh;
+    margin: 0 auto;
+}
+
+.appLanding .banner .banner-content .btn {
+    position: absolute;
+    right: 9rem;
+    background-color: #1e1e20;
+    z-index: 5;
+}
+
+.appLanding .banner .banner-content .btn:hover {
+    background-color: var(--red-color);
+}
+
+.appLanding .banner .background-5 {
+    position: absolute;
+    bottom: -5rem;
+    left: -3rem;
+    width: 11rem;
+    height: 11rem;
+    background-color: #d6d60a;
+    border-radius: 50%;
+}
+
+
+/* APPLANDING FOOTER */
+.appLanding>footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.appLanding>footer .center {
+    display: flex;
+    gap: 2rem;
+}
+
+.appLanding>footer .center li:hover {
+    color: #ccc;
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+}
