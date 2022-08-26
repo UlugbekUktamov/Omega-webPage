@@ -1,3 +1,4 @@
+/* DESKTOPLANDING FIRST-CONTENT HEADER */
 .desktopLanding header .line:hover .first-dropdown {
     top: 3rem;
 }
@@ -21,6 +22,8 @@
     color: coral;
 }
 
+
+/* DESKTOPLANDING FIRST-CONTENT CONTENT */
 .desktopLanding .first-content .content {
     display: flex;
     justify-content: center;
@@ -110,6 +113,8 @@
     cursor: pointer;
 }
 
+/* DESKTOPLANDING SECOND-CONTENT */
+
 .desktopLanding .second-content {
     display: flex;
     padding-top: 0;
@@ -143,6 +148,8 @@
     width: 30rem;
 }
 
+
+/* DESKTOPLANDING THIRD-CONTENT */
 .desktopLanding .third-content {
     flex-direction: column;
     background-color: #413365 !important;
@@ -186,6 +193,8 @@
     border-radius: 15px;
 }
 
+
+/* DESKTOPLANDING FOURTH-CONTENT */
 .desktopLanding .fourth-content {
     background-color: #fff;
     min-height: 100vh;
@@ -213,7 +222,7 @@
     width: 100%;
 }
 
-
+/* DESKTOPLANDING FIFTH-CONTENT */
 .desktopLanding .fifth-content {
     height: 100vh;
     position: relative;
@@ -254,7 +263,7 @@
     border: 1px solid #fff;
 }
 
-
+/* DESKTOPLANDING SIXTH-CONTENT */
 .desktopLanding .sixth-content .content {
     width: 100vw;
     height: 100vh;
@@ -294,7 +303,7 @@
     padding-bottom: 1.5rem;
 }
 
-/* desktoplanding footer */
+/* DESKTOPLANDING SIXTH-CONTENT FOOTER */
 .desktopLanding .sixth-content .content .mini-content .content-mini .footer {
     display: flex;
     justify-content: left;
@@ -324,6 +333,7 @@
     border: 1px solid #fff;
 }
 
+/* DESKTOPLANDING FOOTER */
 .desktopLanding>footer {
     display: flex;
     justify-content: space-between;
