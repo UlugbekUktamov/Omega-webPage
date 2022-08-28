@@ -12,6 +12,9 @@
     <!-- GENERAL CSS -->
     <link rel="stylesheet" href="CSS/general.css">
 
+    <!-- AOS LIBRARY -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!-- FONT AWESOME -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
         integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
@@ -76,12 +79,12 @@
                 </div>
             </header>
             <div class="content">
-                <div class="left">
+                <div class="left" data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000">
                     <div class="image">
                         <img src="/desktopLanding/Bitmap (1).png" alt="">
                     </div>
                 </div>
-                <div class="right">
+                <div class="right" data-aos="fade-left" data-aos-delay="100" data-aos-duration="1000">
                     <h1>
                         Enjoy every single <br>
                         beat on headphone!
@@ -112,7 +115,7 @@
 
         <!-- SECOND CONTENT -->
         <div class="second-content">
-            <div class="left">
+            <div class="left" data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000">
                 <h1>
                     Get noise free <br>
                     sound everytime
@@ -133,7 +136,7 @@
                     </div>
                 </div>
             </div>
-            <div class="right">
+            <div class="right" data-aos="fade-left" data-aos-delay="100" data-aos-duration="1000">
                 <div class="image">
                     <img src="/desktopLanding/Bitmap (3).png" alt="">
                 </div>
@@ -148,31 +151,32 @@
             </h1>
             <div class="general-content">
                 <div class="content content-1">
-                    <h3>50+ Unique Design Blocks</h3>
-                    <h3>Multiple Layouts</h3>
-                    <h3>Mobile First Design</h3>
+                    <h3 data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000">50+ Unique Design Blocks
+                    </h3>
+                    <h3 data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">Multiple Layouts</h3>
+                    <h3 data-aos="fade-left" data-aos-delay="100" data-aos-duration="1000">Mobile First Design</h3>
                 </div>
                 <div class="content content-2">
-                    <h3>Fully Responsive</h3>
-                    <h3>Bootstrap 4 Framework</h3>
+                    <h3 data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">Fully Responsive</h3>
+                    <h3 data-aos="fade-down" data-aos-delay="100" data-aos-duration="1000">Bootstrap 4 Framework</h3>
                 </div>
                 <div class="content content-3">
-                    <h3>Humanly Support</h3>
-                    <h3>Lifetime Updates</h3>
-                    <h3>Rich Documentation</h3>
+                    <h3 data-aos="fade-up-right" data-aos-delay="100" data-aos-duration="1000">Humanly Support</h3>
+                    <h3 data-aos="flip-right" data-aos-delay="100" data-aos-duration="1000">Lifetime Updates</h3>
+                    <h3 data-aos="fade-up-left" data-aos-delay="100" data-aos-duration="1000">Rich Documentation</h3>
                 </div>
             </div>
         </div>
 
         <!-- FOURTH CONTENT -->
         <div class="fourth-content">
-            <h1>Enjoy your music</h1>
-            <p>
+            <h1 data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000">Enjoy your music</h1>
+            <p data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000">
                 Create custom landing pages with Omega that converts more visitors <br>
                 than any website. With lots of unique blocks, you can easily build a <br>
                 page without coding.
             </p>
-            <div class="images">
+            <div class="images" data-aos="fade-left" data-aos-delay="100" data-aos-duration="1000">
                 <img src="/desktopLanding/Rectangle (11).png" alt="">
                 <img src="/desktopLanding/Rectangle Copy (1).jpg" alt="">
             </div>
@@ -180,7 +184,7 @@
 
         <!-- FIFTH CONTENT -->
         <div class="fifth-content">
-            <div class="left">
+            <div class="left" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1000">
                 <h1>
                     2k+ people are <br>
                     using this headset
@@ -210,7 +214,8 @@
                     </p>
                 </div>
                 <div class="mini-content">
-                    <div class="content-mini mini-content-1">
+                    <div class="content-mini mini-content-1" data-aos="fade-right" data-aos-delay="100"
+                        data-aos-duration="1000">
                         <p>
                             OMG! I cannot believe that I have got a brand <br>
                             new landing page after getting Omega. It was <br>
@@ -226,7 +231,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="content-mini mini-content-2">
+                    <div class="content-mini mini-content-2" data-aos="fade-left" data-aos-delay="100"
+                        data-aos-duration="1000">
                         <p>
                             OMG! I cannot believe that I have got a brand <br>
                             new landing page after getting Omega. It was <br>
@@ -248,11 +254,11 @@
 
         <!-- SEVENTH CONTENT -->
         <div class="seventh-content">
-            <h1>
+            <h1 data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000">
                 Enjoy every beat. <br>
                 Get a new headphone
             </h1>
-            <button class="btn">
+            <button class="btn" data-aos="fade-left" data-aos-delay="100" data-aos-duration="1000">
                 Buy now
             </button>
         </div>
@@ -275,6 +281,10 @@
 
 
     <script src="/script/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
