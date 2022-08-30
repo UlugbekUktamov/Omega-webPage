@@ -363,11 +363,28 @@
     }
 
     .startupLanding .first-content header .left h2 {
-        font-size: 1.5rem;
+        font-size: 1.1rem;
+    }
+
+    .startupLanding .first-content header .right {
+        max-width: 10rem;
     }
 
     .startupLanding .first-content header .right .btn {
-        font-size: 0.9rem;
+        display: none;
+    }
+
+    .startupLanding header .line:hover .first-dropdown {
+        top: 2.5rem;
+        right: 1rem;
+    }
+
+    .startupLanding header .first-dropdown .line1:hover .second-dropdown {
+        opacity: 1;
+        top: 16.4rem;
+        transition: all 0.5s ease;
+        visibility: visible;
+        left: 0px;
     }
 
     .startupLanding .first-content .content h1 {
