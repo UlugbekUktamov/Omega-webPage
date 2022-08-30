@@ -345,3 +345,263 @@
     cursor: pointer;
     transition: 0.2s ease;
 }
+
+@media only screen and (max-width: 700px) {
+
+    html,
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .startupLanding .first-content header {
+        margin: 0 auto;
+    }
+
+    .startupLanding .first-content header .main-content>p {
+        display: none;
+    }
+
+    .startupLanding .first-content header .left h2 {
+        font-size: 1.5rem;
+    }
+
+    .startupLanding .first-content header .right .btn {
+        font-size: 0.9rem;
+    }
+
+    .startupLanding .first-content .content h1 {
+        font-size: 1.5rem;
+    }
+
+    .startupLanding .first-content .content p {
+        font-size: 0.9rem;
+        width: auto;
+        margin: 1rem auto;
+    }
+
+    #email {
+        grid-template-columns: 1fr 1fr;
+        max-width: 20rem;
+        align-items: center;
+        gap: 1rem;
+        background-color: transparent;
+    }
+
+    #email input {
+        background-color: transparent;
+        font-size: 0.9rem;
+    }
+
+    #email i {
+        margin-left: 0rem;
+    }
+
+    #email .btn {
+        font-size: 0.8rem;
+        width: 8rem;
+    }
+
+    .startupLanding .oval {
+        display: none;
+    }
+
+    .startupLanding .second-content {
+        flex-direction: column;
+        overflow: visible;
+        height: auto;
+        margin-bottom: 4rem;
+        padding-bottom: 3rem;
+    }
+
+    .startupLanding .second-content .left .content {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .startupLanding .second-content .left .content h2 {
+        font-size: 1rem;
+    }
+
+    .startupLanding .second-content .left .content p {
+        font-size: 0.9rem;
+    }
+
+    .startupLanding .second-content .right {
+        margin-left: 10rem;
+    }
+
+    .startupLanding .second-content .right h1 {
+        font-size: 1.5rem;
+        margin-top: 2rem;
+    }
+
+    .startupLanding .second-content .right p {
+        font-size: 0.8rem;
+        width: auto;
+        margin: 1rem auto;
+    }
+
+    .startupLanding .second-content .right .btn {
+        font-size: 0.8rem;
+        max-width: 10rem;
+    }
+
+    .startupLanding .third-content {
+        flex-direction: column;
+        overflow: visible !important;
+        height: auto;
+    }
+
+    .startupLanding .third-content .left h1 {
+        font-size: 1.8rem;
+    }
+
+    .startupLanding .third-content .left p {
+        font-size: 0.9rem;
+    }
+
+    .startupLanding .third-content img {
+        display: none !important;
+    }
+
+    .startupLanding .third-content .right {
+        height: 500px;
+        margin-top: -7rem;
+    }
+
+    .startupLanding .fourth-content {
+        height: auto;
+    }
+
+    .startupLanding .fourth-content>h1 {
+        font-size: 1.8rem;
+    }
+
+    .startupLanding .fourth-content .general-content {
+        gap: 0rem;
+        margin: -2rem auto 2rem;
+    }
+
+    .startupLanding .fourth-content .general-content .content {
+        flex-direction: column;
+    }
+
+    .startupLanding .fourth-content .general-content .content h3 {
+        margin: 1rem auto;
+        padding: 21px 5rem;
+        font-size: 1rem;
+        max-width: 70%;
+    }
+
+    .startupLanding .fifth-content .content-1 {
+        flex-direction: column;
+    }
+
+    .startupLanding .fifth-content .content-1 .left h1 {
+        font-size: 1.8rem;
+    }
+
+    .startupLanding .fifth-content .content-1 .left p {
+        font-size: 0.9rem;
+    }
+
+    .startupLanding .fifth-content .content-1 .left .btn {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .startupLanding .fifth-content .content-1 .right .image img:nth-child(2) {
+        display: none;
+    }
+
+    .startupLanding .fifth-content .content-1 .right .image {
+        width: 90%;
+        margin: 2rem auto 0;
+    }
+
+    .startupLanding .fifth-content .content-1 .right .image img {
+        width: 100%;
+    }
+
+    .startupLanding .fifth-content .content-2 {
+        overflow: visible !important;
+        height: auto;
+    }
+
+    .startupLanding .fifth-content .content-2>.title h1 {
+        font-size: 1.8rem;
+    }
+
+    .startupLanding .fifth-content .content-2>.title p {
+        font-size: 0.9rem;
+    }
+
+    .startupLanding .fifth-content .content-2 .mini-content {
+        flex-direction: column;
+        padding-bottom: 4rem;
+    }
+
+    .startupLanding .fifth-content .content-2 .mini-content .content-mini p {
+        font-size: 0.9rem;
+    }
+
+    .startupLanding .fifth-content .content-3 {
+        flex-direction: column;
+        overflow: visible;
+        height: auto;
+    }
+
+    .startupLanding .fifth-content .content-3 .left .image {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .startupLanding .fifth-content .content-3 .left .image img {
+        width: 100%;
+    }
+
+    .startupLanding .fifth-content .content-3 .left .image img:nth-child(2) {
+        display: none;
+    }
+
+    .startupLanding .fifth-content .content-3 .right {
+        margin-top: -6rem !important;
+        margin-left: 4rem;
+        margin-bottom: 2rem;
+    }
+
+    .startupLanding .fifth-content .content-3 .right h1 {
+        font-size: 1.8rem;
+    }
+
+    .startupLanding .fifth-content .content-3 .right p {
+        font-size: 0.9rem;
+    }
+
+    .startupLanding .fifth-content .content-3 .right .email .input {
+        display: flex;
+    }
+
+    .startupLanding .fifth-content .content-3 .right .email {
+        width: 60%;
+    }
+
+    .startupLanding .fifth-content .content-3 .right .email .input input {
+        font-size: 0.9rem;
+    }
+
+    .startupLanding .fifth-content .content-3 .right .email button {
+        font-size: 0.9rem;
+    }
+
+    .startupLanding .fifth-content .footer {
+        flex-direction: column;
+        text-align: center;
+        gap: 2rem;
+    }
+
+    .startupLanding .fifth-content .footer ul .icons {
+        margin: 1rem 0 1rem 11.5rem;
+    }
+}

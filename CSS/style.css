@@ -406,6 +406,20 @@
     margin-top: 20rem !important;
     width: 80%;
     margin: 0 auto;
+    margin-left: 6rem;
+  }
+
+  .second-content .right h1 {
+    font-size: 1.7rem !important;
+  }
+
+  .second-content .right p {
+    font-size: 0.9rem;
+  }
+
+  .second-content .right .btn {
+    font-size: 0.8rem !important;
+    max-width: 10rem;
   }
 
   .third-content {
