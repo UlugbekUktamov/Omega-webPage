@@ -371,13 +371,14 @@
     }
 
     .startupLanding .first-content .content h1 {
-        font-size: 1.1rem;
+        font-size: 0.9rem;
+        margin-left: -2rem;
     }
 
     .startupLanding .first-content .content p {
         font-size: 0.9rem;
-        width: auto;
-        margin: 1rem auto;
+        width: 200px;
+        margin: 1rem 0 0 -2rem;
     }
 
     #email {
@@ -386,6 +387,7 @@
         align-items: center;
         gap: 1rem;
         background-color: transparent;
+        margin-left: -2rem;
     }
 
     #email input {
@@ -428,7 +430,8 @@
     }
 
     .startupLanding .second-content .right {
-        margin-left: 10rem;
+        margin-left: none;
+        margin-top: 6rem;
     }
 
     .startupLanding .second-content .right h1 {
@@ -453,12 +456,16 @@
         height: auto;
     }
 
+    .startupLanding .third-content .left {
+        margin-right: 1rem !important;
+    }
+
     .startupLanding .third-content .left h1 {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
 
     .startupLanding .third-content .left p {
-        font-size: 0.9rem;
+        font-size: 0.7rem;
     }
 
     .startupLanding .third-content img {
@@ -490,8 +497,8 @@
     .startupLanding .fourth-content .general-content .content h3 {
         margin: 1rem auto;
         padding: 21px 5rem;
-        font-size: 1rem;
-        max-width: 70%;
+        font-size: 0.9rem;
+        max-width: 99%;
     }
 
     .startupLanding .fifth-content .content-1 {
@@ -499,11 +506,11 @@
     }
 
     .startupLanding .fifth-content .content-1 .left h1 {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
 
     .startupLanding .fifth-content .content-1 .left p {
-        font-size: 0.9rem;
+        font-size: 0.7rem;
     }
 
     .startupLanding .fifth-content .content-1 .left .btn {
@@ -602,6 +609,6 @@
     }
 
     .startupLanding .fifth-content .footer ul .icons {
-        margin: 1rem 0 1rem 11.5rem;
+        margin: 1rem 0 1rem 5.5rem
     }
 }
