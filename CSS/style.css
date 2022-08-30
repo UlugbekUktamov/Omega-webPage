@@ -332,7 +332,7 @@
   }
 
   .first-content .content .left h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .first-content .content .left p {
@@ -419,6 +419,20 @@
     margin: -7rem auto 0;
   }
 
+  .third-content .left {
+    margin-left: 2rem;
+  }
+
+  .third-content .left h1 {
+    font-size: 1.8rem !important;
+  }
+
+  .third-content .left p {
+    font-size: 0.9rem !important;
+    width: auto;
+    margin: 0 auto;
+  }
+
   .third-content .right .next-content {
     display: none !important;
   }
@@ -452,8 +466,24 @@
     display: none;
   }
 
+  .fourth-content .right {
+    margin-left: 2rem;
+  }
+
+  .fourth-content .right h1 {
+    font-size: 1.5rem;
+  }
+
   .fourth-content .right p {
-    margin: 2rem 0;
+    margin: 2rem auto;
+    font-size: 0.9rem;
+    width: auto;
+  }
+
+  .fourth-content .right .content .title {
+    font-size: 0.8rem;
+    width: auto;
+    margin: 0 auto;
   }
 
   .fifth-content>h1 {
@@ -478,7 +508,9 @@
   }
 
   .fifth-content footer .content>p {
-    font-size: 1rem;
+    font-size: 0.8rem;
+    width: auto;
+    margin: 0 auto;
   }
 
   .fifth-content footer .content #inputs {
@@ -503,5 +535,7 @@
 
   .fifth-content footer .footer-2 .left p {
     font-size: 0.8rem;
+    width: auto;
+    margin: 0 auto;
   }
 }
