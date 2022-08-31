@@ -346,11 +346,11 @@
   .first-content header .first-dropdown {
     background-color: none;
     width: 14.5rem;
-    right: -0.5rem;
+    right: 4rem;
   }
 
   .first-content header .first-dropdown .line1:hover .second-dropdown {
-    width: 10rem;
+    width: 100%;
     left: 0rem;
     top: 8.8rem;
   }
