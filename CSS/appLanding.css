@@ -416,3 +416,231 @@ body {
 li {
     list-style: none;
 }
+
+@media only screen and (max-width: 700px) {
+
+    html,
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .appLanding .first-content .background {
+        display: none;
+    }
+
+    .appLanding .first-content header .right {
+        display: none;
+    }
+
+    .appLanding .first-content header .left h2 {
+        font-size: 1.3rem;
+    }
+
+    .appLanding .first-content header .center p {
+        font-size: 0.8rem;
+    }
+
+    .appLanding .first-content header .center .line:hover .first-dropdown {
+        top: 3rem;
+    }
+
+    header .first-dropdown .line1:hover .second-dropdown {
+        left: 0;
+        width: 100%;
+        top: 8.8rem !important;
+    }
+
+    .appLanding .first-content .content {
+        flex-direction: column;
+    }
+
+    .appLanding .first-content .content .background-1,
+    .appLanding .first-content .content .background-2 {
+        display: none;
+    }
+
+    .appLanding .first-content .content .left {
+        margin-bottom: 2rem;
+    }
+
+    .appLanding .first-content .content .left h1 {
+        font-size: 1.8rem;
+    }
+
+    .appLanding .first-content .content .left p {
+        font-size: 0.7rem;
+    }
+
+    .appLanding .second-content .top h1 {
+        font-size: 1.8rem;
+    }
+
+    .appLanding .second-content .top p {
+        font-size: 0.7rem;
+    }
+
+    .appLanding .second-content .top .image {
+        width: 80%;
+        margin-left: 2.5rem;
+    }
+
+    .appLanding .second-content .top .image i {
+        font-size: 1rem;
+        top: 28%;
+        left: 40%;
+        padding: 1.3rem;
+    }
+
+    .appLanding .second-content .bottom {
+        grid-template-columns: 1fr;
+    }
+
+    .appLanding .second-content .bottom h4 {
+        font-size: 1rem;
+    }
+
+    .appLanding .second-content .bottom p {
+        font-size: 0.8rem;
+    }
+
+    .appLanding .third-content {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .appLanding .third-content .background-3 {
+        display: none;
+    }
+
+    .appLanding .third-content .left .image {
+        width: 70%;
+        margin-left: 3.5rem;
+    }
+
+    .appLanding .third-content .right {
+        margin-top: -7rem !important;
+        margin-bottom: 4rem;
+        margin-left: 7rem;
+    }
+
+    .appLanding .third-content .right button {
+        font-size: 0.8rem;
+        max-width: 20rem;
+    }
+
+    .appLanding .third-content .right h1 {
+        font-size: 1.5rem;
+    }
+
+    .appLanding .third-content .right p {
+        font-size: 0.8rem;
+        width: 70%;
+        line-height: 1.6rem;
+        margin: 0 auto;
+        margin-left: 0rem;
+    }
+
+    .appLanding .fourth-content>h1 {
+        font-size: 1.8rem;
+    }
+
+    .appLanding .fourth-content>p {
+        font-size: 0.8rem;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .appLanding .fourth-content .images {
+        flex-direction: column;
+        margin: 2rem 0;
+        margin-left: 3rem;
+        width: 80%;
+    }
+
+    .appLanding .fifth-content header {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .appLanding .fifth-content header .left h1 {
+        font-size: 1.6rem;
+    }
+
+    .appLanding .fifth-content header .left p {
+        font-size: 0.8rem;
+    }
+
+    .appLanding .fifth-content header .left .btn {
+        font-size: 0.8rem;
+    }
+
+    .appLanding .fifth-content header .right .image {
+        width: 70%;
+        margin-left: 3rem;
+        margin-top: 2rem;
+    }
+
+    .appLanding .fifth-content footer>h1 {
+        font-size: 1.4rem;
+    }
+
+    .appLanding .fifth-content footer>p {
+        font-size: 0.8rem;
+    }
+
+    .appLanding .fifth-content footer .all-footer-content {
+        grid-template-columns: 1fr;
+    }
+
+    .appLanding .fifth-content footer .all-footer-content .footer-content h3 {
+        font-size: 1rem;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .appLanding .fifth-content footer .all-footer-content .footer-content p {
+        font-size: 0.8rem;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .appLanding .banner {
+        height: auto;
+    }
+
+    .appLanding .banner .background-5 {
+        display: none;
+    }
+
+    .appLanding .banner .banner-content {
+        flex-direction: column;
+        justify-content: center;
+        gap: 2rem;
+        align-items: center;
+    }
+
+    .appLanding .banner .image {
+        display: none;
+    }
+
+    .banner .banner-content h1 {
+        font-size: 1.3rem;
+    }
+
+    .appLanding .banner .banner-content .btn {
+        position: static;
+        margin-left: -2rem;
+        font-size: 0.8rem;
+    }
+
+    .appLanding>footer {
+        display: none;
+    }
+
+    .appLanding>footer ul {
+        flex-direction: column;
+    }
+
+
+}
