@@ -356,3 +356,201 @@
 li {
     list-style: none;
 }
+
+@media only screen and (max-width: 700px) {
+
+    html,
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .desktopLanding .first-content {
+        height: auto;
+        overflow: visible;
+    }
+
+    .desktopLanding .first-content .left h2 {
+        font-size: 1rem;
+    }
+
+    .desktopLanding .first-content header .main-content p {
+        font-size: 0.8rem;
+    }
+
+    .desktopLanding .first-content header .right {
+        display: none;
+    }
+
+    .desktopLanding header .line:hover .first-dropdown {
+        top: 3rem;
+        right: 2rem;
+        width: 13rem;
+    }
+
+    .desktopLanding .first-content header .first-dropdown .line1:hover .second-dropdown {
+        left: 0;
+        width: 100%;
+        top: 8.8rem !important;
+    }
+
+    .desktopLanding .first-content .content {
+        flex-direction: column;
+    }
+
+    .desktopLanding .first-content .content .left {
+        display: none;
+    }
+
+    .desktopLanding .first-content .content .right h1 {
+        font-size: 1.8rem;
+    }
+
+    .desktopLanding .first-content .content .right>.title {
+        font-size: 0.8rem;
+    }
+
+    .desktopLanding .first-content .content .right .card {
+        margin-left: 2rem;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .desktopLanding .first-content .content .right .card h2 {
+        font-size: 1.6rem;
+    }
+
+    .desktopLanding .first-content .content .right .card h2 span {
+        font-size: 0.8rem;
+    }
+
+    .desktopLanding .first-content .content .right .card p {
+        font-size: 0.8rem;
+    }
+
+    .desktopLanding .first-content .content .right .add-cart {
+        flex-direction: column;
+        margin-left: 1rem;
+        margin-bottom: 3rem;
+    }
+
+    .desktopLanding .first-content .content .right .btn {
+        font-size: 0.8rem;
+        margin-left: -1rem;
+    }
+
+    .desktopLanding .second-content {
+        flex-direction: column;
+        overflow: visible;
+        margin-top: 10rem;
+    }
+
+    .desktopLanding .second-content .left h1 {
+        font-size: 1.6rem;
+    }
+
+    .desktopLanding .second-content .left p {
+        font-size: 0.8rem;
+    }
+
+    .desktopLanding .right .image {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .desktopLanding .third-content h1 {
+        font-size: 1.8rem;
+    }
+
+    .desktopLanding .third-content .general-content .content {
+        flex-direction: column;
+        gap: 2rem;
+        font-size: 0.8rem;
+    }
+
+    .desktopLanding .third-content .general-content {
+        margin-top: -10rem;
+    }
+
+    .desktopLanding .fourth-content h1 {
+        font-size: 1.8rem;
+    }
+
+    .desktopLanding .fourth-content p {
+        font-size: 0.7rem;
+    }
+
+    .desktopLanding .fourth-content .images {
+        flex-direction: column;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .desktopLanding .fifth-content {
+        flex-direction: column;
+        height: 70vh;
+        overflow: visible;
+    }
+
+    .desktopLanding .fifth-content .left {
+        padding-top: 30rem;
+    }
+
+    .desktopLanding .fifth-content .left h1 {
+        font-size: 1.8rem;
+    }
+
+    .desktopLanding .fifth-content .left p {
+        font-size: 0.8rem;
+    }
+
+    .desktopLanding .fifth-content .left .btn {
+        font-size: 0.8rem;
+    }
+
+    .desktopLanding .fifth-content .right .image {
+        display: none;
+    }
+
+    .desktopLanding .sixth-content .content {
+        height: auto;
+        padding-bottom: 3rem;
+    }
+
+    .desktopLanding .sixth-content .content>.title h1 {
+        font-size: 1.8rem;
+    }
+
+    .desktopLanding .sixth-content .content>.title p {
+        font-size: 0.8rem;
+    }
+
+    .desktopLanding .sixth-content .content .mini-content {
+        flex-direction: column;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .desktopLanding .sixth-content .content .mini-content .content-mini p {
+        font-size: 0.8rem;
+    }
+
+    .desktopLanding .seventh-content {
+        flex-direction: column;
+    }
+
+    .desktopLanding .seventh-content h1 {
+        font-size: 1.6rem;
+    }
+
+    .desktopLanding .seventh-content .btn {
+        font-size: 0.8rem;
+        margin-left: -2rem !important;
+        text-align: left;
+    }
+
+    .desktopLanding>footer {
+        display: none;
+    }
+
+}
